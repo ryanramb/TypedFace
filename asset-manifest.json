@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/TypedFaces/static/css/main.bc2e6e08.css",
+    "main.js": "/TypedFaces/static/js/main.329cce43.js",
+    "static/media/faune-regular.woff2": "/TypedFaces/static/media/faune-regular.1d2944026f16a7c0dd8c.woff2",
+    "static/media/faune-italic.woff": "/TypedFaces/static/media/faune-italic.b15e061133a44c5ff5c1.woff",
+    "static/media/faune-bold.woff": "/TypedFaces/static/media/faune-bold.fd90b821ca4e0b1e8316.woff",
+    "static/media/faune-regular.woff": "/TypedFaces/static/media/faune-regular.0f69a167663ece7c8362.woff",
+    "static/media/faune-italic.woff2": "/TypedFaces/static/media/faune-italic.4a8a695121f55db5ea9a.woff2",
+    "static/media/faune-bold.woff2": "/TypedFaces/static/media/faune-bold.36dabd7d6c9f0126ce07.woff2",
+    "index.html": "/TypedFaces/index.html",
+    "main.bc2e6e08.css.map": "/TypedFaces/static/css/main.bc2e6e08.css.map",
+    "main.329cce43.js.map": "/TypedFaces/static/js/main.329cce43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc2e6e08.css",
+    "static/js/main.329cce43.js"
+  ]
+}
