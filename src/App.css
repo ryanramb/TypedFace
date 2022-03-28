@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tourney:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'Faune';
+  font-weight: 400;
+  src: url('assets/faune-regular.woff') format('woff'),
+    url('assets/faune-regular.woff2') format('woff2');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Faune';
+  font-weight: 400;
+  font-style: italic;
+  src: url('assets/faune-italic.woff') format('woff'),
+    url('assets/faune-italic.woff2') format('woff2');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'Faune';
+  font-weight: 700;
+  font-style: bold;
+  src: url('assets/faune-bold.woff') format('woff'),
+    url('assets/faune-bold.woff2') format('woff2');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  font-family: 'Faune', Arial;
+  margin: 5% 5% 5% 25%;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+section.options {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 13%;
+  background-color: #2a2a2a;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+div.option {
+  margin: 20px 0 0 0;
+}
+
+div.option-checkbox {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+label {
+  display: block;
+  margin: 0 0 5px 0;
+}
+
+label span {
+  float: right;
+  font-style: italic;
+}
+
+input[type='text'] {
+  width: 100%;
+  background-color: #575757;
+  border: none;
   color: white;
+  outline: none;
+  padding: 5px 7px 5px 7px;
 }
 
-.App-link {
-  color: #61dafb;
+input[type='range'] {
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+select {
+  width: 100%;
+}
+
+textarea.output {
+  width: 100%;
+  font-size: 64px;
+  min-height: 100vh;
+  background: none;
+  color: white;
+  border: none;
+  outline: none;
+  font-style: normal;
+}
+
+div.colors {
+  display: flex;
+}
+
+div.colors div {
+  width: 1.9rem;
+  height: 1.8rem;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 0.3rem 0 0;
+}
+
+input[type='checkbox'] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  background-color: #575757;
+  border-radius: 50%;
+  outline: none;
+  transition: background-color 0.25s;
+}
+
+input[type='checkbox']:checked {
+  background-color: #ffffff;
 }
