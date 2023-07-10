@@ -1,30 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tourney:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@font-face {
-  font-family: 'Faune';
-  font-weight: 400;
-  src: url('assets/faune-regular.woff') format('woff'),
-    url('assets/faune-regular.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Faune';
-  font-weight: 400;
-  font-style: italic;
-  src: url('assets/faune-italic.woff') format('woff'),
-    url('assets/faune-italic.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Faune';
-  font-weight: 700;
-  font-style: bold;
-  src: url('assets/faune-bold.woff') format('woff'),
-    url('assets/faune-bold.woff2') format('woff2');
-}
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tourney:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
-  font-family: 'Faune', Arial;
+  font-family: "Gill Sans", sans-serif;
   margin: 5% 5% 5% 25%;
   font-size: 16px;
   line-height: 1.5;
@@ -68,7 +45,7 @@ label span {
   font-style: italic;
 }
 
-input[type='text'] {
+input[type="text"] {
   width: 100%;
   background-color: #575757;
   border: none;
@@ -77,7 +54,7 @@ input[type='text'] {
   padding: 5px 7px 5px 7px;
 }
 
-input[type='range'] {
+input[type="range"] {
   width: 100%;
 }
 
@@ -109,7 +86,7 @@ div.colors div {
   margin: 0 0.3rem 0 0;
 }
 
-input[type='checkbox'] {
+input[type="checkbox"] {
   -webkit-appearance: none;
   appearance: none;
   width: 1rem;
@@ -120,7 +97,7 @@ input[type='checkbox'] {
   transition: background-color 0.25s;
 }
 
-input[type='checkbox']:checked {
+input[type="checkbox"]:checked {
   background-color: #ffffff;
 }
 
@@ -129,7 +106,7 @@ input[type='checkbox']:checked {
     font-size: 25px;
   }
 
-  input[type='text'] {
+  input[type="text"] {
     width: 90%;
   }
 }
@@ -165,7 +142,7 @@ input[type='checkbox']:checked {
     min-height: 70%;
   }
 
-  input[type='range'] {
+  input[type="range"] {
     width: 80%;
   }
 
